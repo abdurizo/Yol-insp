@@ -1,0 +1,29 @@
+.block_link {
+    color: #222;
+    padding: 1.4rem 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 0.4rem;
+}
+
+.block_link:hover {
+    background: rgba(222, 229, 255, 1);
+    transition: 0.5s;
+    border-radius: 8px;
+    padding: 1.4rem 1rem;
+}
+
+.block_link:hover .block_text {
+    color: rgba(78, 117, 255, 1);
+    transition: 0.2s;
+}
+
+.block_text {
+    font-size: 1.6rem;
+    font-family: "OpenSans-SemiBold";
+    white-space: nowrap;
+}
+.icon_wrap {
+    min-width: 2.5rem;
+}

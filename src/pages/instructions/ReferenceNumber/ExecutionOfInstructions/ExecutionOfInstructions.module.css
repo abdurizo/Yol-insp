@@ -1,0 +1,15 @@
+.wrap{
+    margin: 1.6rem 2rem;
+}
+.drafting{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-left:1.2rem;
+}
+.text_drafting{
+    color: #000;
+    font-family: "Montserrat-SemiBold";
+    font-size: 2rem;
+    font-style: normal;
+}

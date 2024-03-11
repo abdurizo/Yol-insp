@@ -1,0 +1,37 @@
+.wrap {
+    margin: 1.6rem 2rem;
+    /* border: 1px solid #000; */
+}
+
+input {
+    border: none;
+}
+
+.filter_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter_block>div {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.seach_input {
+    border-radius: 0.8rem;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.04);
+    padding: 1.2rem 1.6rem; 
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    outline: none;
+    font-family: "OpenSans-Regular";
+    font-size: 1.4rem;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: normal;
+    color: #C0C7D3;
+}

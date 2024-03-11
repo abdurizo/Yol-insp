@@ -1,0 +1,13 @@
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: "OpenSans Regular";
+    font-size: 1.4rem;
+    font-style: normal;
+    background: #03B86C;
+    border-radius: 50%;
+    width: 1.9rem;
+    height: 1.9rem;
+}

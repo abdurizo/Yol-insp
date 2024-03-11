@@ -1,0 +1,80 @@
+.wrapper {
+    background: #fff;
+    padding: 1.2rem 4rem;
+    box-sizing: border-box;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+}
+.back_icon{
+    padding-right: 0.6rem
+}
+.title {
+    font-family: "Montserrat-SemiBold";
+    font-size: 2rem;
+    font-style: normal;
+    padding-right: 3.2rem;
+    display: flex;
+}
+
+.navlink {
+    font-family: "OpenSans-Medium";
+    font-size: 1.6rem;
+    color: #929DB2;
+    font-style: normal;
+    line-height: normal;
+    padding: 2rem 1.4rem;
+    transition: 0.2s;
+    /* border: 1px solid #000; */
+}
+
+.bloc_icon {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 2.8rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #F6F7FA;
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+.icon_prof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0.8rem;
+    background: #F6F7FA;
+}
+
+.supervisor {
+    color: #1D1B1B;
+    font-family: "OpenSans-Medium";
+    font-size: 1.4rem;
+    font-style: normal;
+    /* font-weight: 500; */
+    line-height: 140%;
+}
+
+.supervisor_name {
+    color: #929DB2;
+    font-family: "OpenSans-Regular";
+    font-size: 1.2rem;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 140%
+}
+
+.db {
+    display: block;
+}

@@ -1,0 +1,13 @@
+.container {
+    margin: 1.6rem 2rem;
+    display: grid;
+    grid-template-columns: auto 60rem;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

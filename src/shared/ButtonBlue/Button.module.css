@@ -1,0 +1,17 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 1rem 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid #4E75FF;
+    background: #DCE4FF;
+}
+
+.text {
+    color: #4E75FF;
+    font-family: "OpenSans-Medium";
+    font-size: 1.2rem;
+    font-style: normal;
+    line-height: normal;
+}

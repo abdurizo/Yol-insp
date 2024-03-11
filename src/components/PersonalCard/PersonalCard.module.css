@@ -1,0 +1,57 @@
+.block {
+    border-radius: 0.8rem;
+    background: #FFF;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.obj_info_title {
+    display: flex;
+    padding: 2rem 1.6rem;
+    align-items: center;
+    gap: 0.8rem;
+    background: #DAE5FF;
+}
+
+.obj_info_text {
+    color: #4E75FF;
+    font-family: "Montserrat-SemiBold";
+    font-size: 2rem;
+    font-style: normal;
+    line-height: normal;
+    /* font-weight: 600; */
+}
+
+.list {
+    padding: 0.8rem 1.6rem 1.2rem 1.6rem;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    padding: 1.4rem 1.2rem;
+    border-bottom: 1px solid #DDE2F1;
+}
+
+.description:last-child {
+    border-bottom: none;
+}
+
+.text {
+    font-family: "OpenSans-Regular";
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: normal;
+    /* font-weight: 400; */
+}
+
+.name {
+    color: #3E4450;
+    width: 16rem;
+}
+
+.value {
+    color: #222;
+    max-width: 30.6rem;
+}

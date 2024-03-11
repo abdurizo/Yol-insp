@@ -1,0 +1,75 @@
+.wrap {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 1.6rem; */
+    margin: 1.6rem 2rem;
+    align-items: flex-start;
+}
+
+.basic_inf {
+    border-radius: 0.8rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+.basic_icon_title {
+    padding: 2rem 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: #DAE5FF;
+}
+
+.basic_icon_title>h2 {
+    color: #4E75FF;
+    font-family: "Montserrat-SemiBold";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.basic_info_text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+    /* padding: 1rem 1.6rem; */
+}
+
+.description {
+    display: flex;
+    gap: 1.6rem;
+    padding: 1.4rem 1.2rem;
+    border-bottom: 1px solid #DDE2F1;
+}
+
+.description:last-child {
+    border-bottom: 0;
+}
+
+.description>.name {
+    width: 16rem;
+}
+
+.text {
+    font-family: "OpenSans-Regular";
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: normal;
+}
+.instructions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.4rem;
+}
+.h3{
+    font-family: "Montserrat-SemiBold";
+    font-size: 2rem;
+    font-style: normal;
+    margin-left: 1.2em;
+}
+.status{
+    display: flex;
+    gap: 1.6rem;
+}

@@ -1,0 +1,58 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.page_count {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.page_count>span {
+    font-family: "OpenSans-Medium";
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.paginate {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.paginate_item {
+    display: flex;
+    font-size: 1.6rem;
+    font-family: "OpenSans-Regular";
+    color: #878787;
+    grid-gap: 1rem;
+    cursor: pointer;
+}
+
+.page,
+.transition {
+    border-radius: 0.4rem;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.06);
+}
+
+.page a,
+.transition a {
+    display: inline-block;
+    padding: 1.2rem;
+}
+
+.transition:hover {
+    /* background: #E54E1D; */
+    /* border: 1px solid #E54E1D; */
+    /* color: #fff; */
+}
+
+.page_active {
+    color: #fff;
+    background: #4E75FF;
+}
